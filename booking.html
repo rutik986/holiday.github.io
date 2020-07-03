@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  background-color: white;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+    </style>
+</head>
+<body>
+  <div class="topnav">
+    <a href="About us.html">About us</a>
+    <a href="contact.html">Contact</a>
+    <a href="booking.html">Booking</a>
+    <a class="active" href="index.html">Home</a>
+    <a href="#" style="float: left;"><img src="737c7a4a853696b2895abe8230db6df2.png" style="width:100px; height:auto;object-fit:contain; background-color:white;"></a>
+  </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    
+    <style>
+        body {
+          background-image: url('mlewh-wow-oceanhaven-1800-hor-wide.jpg');
+        }
+        </style>
+        <div class="about-section">
+          <h1>Booking</h1>
+          <p>You Can Book your travel tickets from here.</p>
+        </div>
+        
+        <h2 style="text-align:center">Our Destination which are most visited</h2>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="Taj-Mahal-Agra-India.jpg" alt="Taj Mahal" style="width:100%">
+              <div class="container">
+                <h2>Taj Mahal</h2>
+                <p>Join me on a full tour of the Taj Mahal, the world’s most magnificent testimony to undying love.</p>
+                <p>jane@example.com</p>
+                <a href='https://www.youtube.com/watch?v=49HTIoCccDY' target="_blank">
+                  <p><button class="button">Overview</button></p>
+                  </a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+              <img src="top-22-paces-to-visit-in-pune-20161024052350.jpg" alt="Pune" style="width:100%">
+              <div class="container">
+                <h2>Pune</h2>
+                <p>oin me on a full tour of the Pune, the world’s most magnificent testimony to undying love.</p>
+                <p>jane@example.com</p>
+                <a href='https://www.youtube.com/watch?v=oXLrwDfPYEY' target="_blank">
+                  <p><button class="button">Overview</button></p>
+                  </a>
+              </div>
+            </div>
+          </div>
+        
+        
+          <div class="column">
+            <div class="card">
+              <img src="Rajasthan-Itinerary-cover.jpeg" alt="Rajasthan" style="width:100%">
+              <div class="container">
+                <h2>Rajasthan</h2>
+                <p>Join me on a full tour of the Rajasthan, the world’s most magnificent testimony to undying love.</p>
+                <p>jane@example.com</p>
+                <a href='https://www.youtube.com/watch?v=_naxKSSun2I' target="_blank">
+                  <p><button class="button">Overview</button></p>
+                  </a>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div style="text-align: center;background-color:#808080;width: 100%;padding:10px; box-sizing: inherit;">
+            <p style="color:white">All Rights Reserved By Holiday</p>
+        </div>
+
+        
+    
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.container1 {
+  border-radius: 5px;
+  padding: 20px;
+  opacity: 0.9;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #808080;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container1 label{
+  color: white;
+  font-size: 20px;
+}
+
+.grid-container1{
+display: grid;
+grid-template-columns: 50%;
+grid-template-rows: auto;
+grid-gap:10px;
+justify-content: center;
+}
+
+input[type=submit]:hover {
+  background-color: #A9A9A9;
+}
+</style>
+<body>
+    <div class="topnav">
+        <a href="About us.html">About us</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html">Booking</a>
+        <a class="active" href="index.html">Home</a>
+        <a href="#" style="float: left;"><img src="737c7a4a853696b2895abe8230db6df2.png" style="width:100px; height:auto;object-fit:contain; background-color:white;"></a>
+      </div>
+      <br><br><br><br><br><br>
+      <div class="container1">
+        <div class="grid-container1" id="form">
+        <div>
+            <h1 style="font-size: 30px;color:white; text-align:center;">Register Youerself For Any Query</h1>
+        </div>
+          <form>
+        <div>
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Your Full Name">
+        </div>
+        <div>
+            <label for="contact">Contact</label>
+            <input type="text" id="contact" name="contact" placeholder="You Contact">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="You Email ID">
+        </div>
+        <div>
+            <label for="query">Query</label>
+            <textarea id="query" name="query" placeholder="Write query.." style="height:200px"></textarea>
+        </div>
+        <div style="text-align: right;">
+            <input type="submit" value="Submit" onclick="alert('Registered Successfully!')">
+        </div>
+          </form>
+        
+        </div>
+        
+        </div> 
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div style="text-align: center;background-color:#808080;width: 100%;padding:10px; box-sizing: inherit;">
+            <p style="color:white">All Rights Reserved By Holiday</p>
+        </div>
+     
+      
+    
+    <style>
+        body {
+          background-image: url('mlewh-wow-oceanhaven-1800-hor-wide.jpg');
+        }
+        </style>
+    
+</body>
+</html>
